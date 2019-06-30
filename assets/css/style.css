@@ -55,11 +55,18 @@ h6{
 }
 /* IMAGES */
 .school-logo{
-    width: 30%;
+    width: 20%;
     margin: 0 auto;
     display: block;
     margin-bottom: 2%;
     height: auto;
+  }
+  .firebase-logo{
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2%;
+    height: 30%;
   }
 img{
     width: 100%;
