@@ -1,5 +1,5 @@
 .container{
-    margin-top: 25%;
+    margin-top: 22%;
     margin-bottom: 3%;
     border-radius: 6px;
     padding: 10px;
@@ -38,7 +38,7 @@ nav{
    font-size: 15pt;
 }
 .line-split{
-border-left: 1px #000 solid;
+border-left: .5px #000 solid;
 padding: 10px;
 }
 h6{
