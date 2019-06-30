@@ -11,6 +11,7 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Mali|Old+Standard+TT|Pacifico|Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Taylor Lewis</title>
 </head>
@@ -21,16 +22,6 @@
         <p class="text-right" id="time"></p>
     </nav>
     <div class="container">
-        <!-- <div class="row" id="header">
-            <div class="col-sm-12">
-                <div class="jumbotron mt-5">
-                    <h5>Hello, welcome to my portfolio site</h5>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                  </div>
-            </div>
-        </div> -->
-        <!-- About Me w/resume -->
-
         <div class="row mb-5" id="about-content">
             <div class="col-sm-6">
                 <h2 class="text-center mt-3">Taylor Lewis</h2>
@@ -190,6 +181,45 @@
                     <p class="text-center">Express, Sequelize, Passport, NodeJS, and bCrypt</p>
                 </div>
             </div>
+            <div class="row" id="contact-info">
+                <div class="col-sm-6 mb-5">
+                    <!-- CONTACT INFO -->
+                      <img src="assets/images/image1.jpeg" class="mt-5" alt="contact-pic">
+                      
+                        <p class="contact-txt">Taylor Lewis</p>
+                        <p class="contact-txt">Front End Developer</p>
+                        <p class="contact-txt">Phone Number:</p>
+                        <a href="callto:469-450-8357"><p class="contact-txt">(469)-450-8357</p></a>
+                        <p class="contact-txt">Email:
+                          <a href="mailto:taylor1lewis@yahoo.com">taylor1lewis@yahoo.com</a>
+                        </p>
+                      
+                </div>
+                <div class="col-sm-6">
+                    <!-- FIREBASE FORM  -->
+                    <form id="contactForm">
+                            <div class="form-group">
+                              <h4 class="main-title text-center mt-2">Contact Me</h4>
+                              <hr>
+                              <div class="alert text-center">Thanks for contacting me!</div>
+                              <label for="exampleInputEmail1">Name</label>
+                              <input type="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="phone">Phone Number</label>
+                              <input type="unique" class="form-control" id="phone" placeholder="Phone #">
+                            </div>
+                            <div class="form-group">
+                              <label for="comments">Comments</label>
+                              <textarea class="form-control" id="comments" rows="3"></textarea>
+                            </div>
+                            <button type="submit" id="submitForm" class="btn btn-dark mb-5">Submit</button>
+                          </form>
+              </div>
         </div>
 
         <!-- Footer -->

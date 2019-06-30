@@ -14,7 +14,7 @@ body{
     border: 2px #000 solid;
     background-color: #fff;
 }
-#projects, #header{
+#projects, #header, #contact-info{
     border-radius: 6px;
     margin: auto;
     width: 95%;
@@ -47,6 +47,11 @@ h6{
 }
 .project-title{
     color: #fff
+}
+.alert {
+  font-size: 12pt;
+  color: green;
+  display: none;
 }
 /* IMAGES */
 .school-logo{
