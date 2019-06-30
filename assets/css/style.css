@@ -61,7 +61,7 @@ img{
     margin-bottom: 2%;
     height: auto;
 }
-img:hover {
+.pic-animate:hover {
     opacity: 0.65;
     cursor: pointer;
     /* CSS ANIMATE */
