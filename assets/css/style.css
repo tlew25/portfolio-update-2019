@@ -14,14 +14,14 @@ body{
     border: 2px #000 solid;
     background-color: #fff;
 }
-#projects, #header, #contact-info{
+#projects, #header, #contact-info,#about-content{
     border-radius: 6px;
     margin: auto;
     width: 95%;
     margin-bottom: 3%;
     background-color: #fff;
 }
-#about-content, #footer{
+#footer{
     margin: auto;
     width: 95%;
 }
