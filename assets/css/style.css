@@ -36,9 +36,9 @@ nav {
   opacity: 0.97;
   border-bottom: 3px #000 solid;
 }
-.navbar-brand {
+.navbar-brand, #name-main {
   font-family: "Pacifico", cursive;
-  font-size: 20pt;
+  font-size: 24pt;
 }
 .line-split {
   border-left: 0.5px #000 solid;
