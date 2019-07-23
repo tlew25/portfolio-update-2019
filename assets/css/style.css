@@ -40,6 +40,10 @@ nav {
   font-family: "Pacifico", cursive;
   font-size: 20pt;
 }
+.display-4{
+  font-family: "Pacifico", cursive;
+  font-size: 40pt; 
+}
 .line-split {
   border-left: 0.5px #000 solid;
   padding: 10px;
@@ -50,11 +54,26 @@ h6 {
 .project-title {
   color: #fff;
 }
+/* JS */
 .alert {
   font-size: 12pt;
   color: green;
   display: none;
 }
+/* .jumbotron{
+width: 45%;
+height: 10%;
+margin: auto;
+position: absolute;
+background-color: #fff;
+border-radius: 6px;
+margin-bottom: 50px;
+opacity: 1;
+transition: opacity 2s ease-in-out;
+-moz-transition: opacity 2s ease-in-out;
+-webkit-transition: opacity 2s ease-in-out;
+} */
+/*  */
 /* IMAGES */
 .school-logo {
   width: 20%;
